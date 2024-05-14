@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 function loginmodule() {
   // Define state variable 'count' and its setter function 'setCount'
   const [count, setCount] = useState(0);
-  console.log("Hello");
+  
   return (
     <div>
       <p>Count: {count}</p>

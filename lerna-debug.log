@@ -3,6 +3,7 @@
 17 error fatal: repository 'https://github.com/shaikiffu/Learn.git/' not found
 17 error error: could not fetch old-origin
 17 error Fetching old-origin
+17 error Fetching upstream
 17 error Fetching origin
 17 error     at makeError (C:\Users\shaikmohammed\Documents\Test_lerna\node_modules\execa\lib\error.js:59:11)
 17 error     at module.exports.sync (C:\Users\shaikmohammed\Documents\Test_lerna\node_modules\execa\index.js:186:17)
