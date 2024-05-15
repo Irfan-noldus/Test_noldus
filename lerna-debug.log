@@ -1,14 +1,9 @@
-17 error Error: Command failed with exit code 1: git remote update
-17 error remote: Repository not found.
-17 error fatal: repository 'https://github.com/shaikiffu/Learn.git/' not found
-17 error error: could not fetch old-origin
-17 error Fetching old-origin
-17 error Fetching upstream
-17 error Fetching origin
-17 error     at makeError (C:\Users\shaikmohammed\Documents\Test_lerna\node_modules\execa\lib\error.js:59:11)
-17 error     at module.exports.sync (C:\Users\shaikmohammed\Documents\Test_lerna\node_modules\execa\index.js:186:17)
-17 error     at Object.execSync (C:\Users\shaikmohammed\Documents\Test_lerna\node_modules\lerna\dist\index.js:142:31)
-17 error     at updateRemote (C:\Users\shaikmohammed\Documents\Test_lerna\node_modules\lerna\dist\index.js:7784:18)
-17 error     at isBehindUpstream (C:\Users\shaikmohammed\Documents\Test_lerna\node_modules\lerna\dist\index.js:7774:3)
-17 error     at VersionCommand.initialize (C:\Users\shaikmohammed\Documents\Test_lerna\node_modules\lerna\dist\index.js:8065:57)
-17 error     at VersionCommand.runCommand (C:\Users\shaikmohammed\Documents\Test_lerna\node_modules\lerna\dist\index.js:1861:36)
+35 error Error: Command failed with exit code 1: npm install --package-lock-only --ignore-scripts
+35 error npm ERR! Cannot read properties of undefined (reading 'extraneous')
+35 error
+35 error npm ERR! A complete log of this run can be found in: C:\Users\shaikmohammed\AppData\Local\npm-cache\_logs\2024-05-15T04_55_40_217Z-debug-0.log
+35 error     at makeError (C:\Users\shaikmohammed\Documents\Test_lerna\node_modules\execa\lib\error.js:59:11)
+35 error     at handlePromise (C:\Users\shaikmohammed\Documents\Test_lerna\node_modules\execa\index.js:114:26)
+35 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+35 error     at async VersionCommand.updatePackageVersions (C:\Users\shaikmohammed\Documents\Test_lerna\node_modules\lerna\dist\index.js:8477:13)
+35 error     at async Promise.all (index 0)
